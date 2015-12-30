@@ -16,7 +16,7 @@ docker run \
 ```
 
 This starts the container, detached, mapping port 2222 on the host to port 22 in the
-container and mounts a public key as the authorized key of the `proxy` user.
+container and mounts a public key as an authorized key of the `proxy` user.
 
 When the container is running, to create a SOCKS5 proxy:
 
