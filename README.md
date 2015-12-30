@@ -12,7 +12,7 @@ docker run \
   -d \
   -p 2222:22 \
   -v ~/.ssh/id_rsa.pub:/home/proxy/.ssh/authorized_keys \
-  mmb62/sshd
+  mm62/sshd
 ```
 
 This starts the container, detached, mapping port 2222 on the host to port 22 in the
